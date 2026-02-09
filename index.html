@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun | Digital Strategist</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <!-- Dynamic Canvas Background -->
+    <canvas id="neuro-canvas"></canvas>
+    
+    <!-- Overlay Scanlines -->
+    <div class="scanlines"></div>
+
+    <!-- Main Interface -->
+    <div class="interface-container">
+        
+        <!-- Navigation HUD -->
+        <nav class="hud-nav">
+            <div class="logo">ARUN</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="glitch-link" data-text="HOME">HOME</a></li>
+                <li><a href="#about" class="glitch-link" data-text="DATA">DATA</a></li>
+                <li><a href="#projects" class="glitch-link" data-text="PROTOCOLS">PROTOCOLS</a></li>
+                <li><a href="#contact" class="glitch-link" data-text="SIGNAL">SIGNAL</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main Content -->
+        <main>
+            <!-- Hero Section -->
+            <section id="hero" class="hero-section">
+                <div class="glitch-wrapper">
+                    <h1 class="hero-title glitch" data-text="DIGITAL GROWTH">DIGITAL GROWTH</h1>
+                </div>
+                <h2 class="hero-subtitle">FUTURE-READY MARKETING STRATEGIST</h2>
+                <p class="hero-desc">I merge data-driven strategies with futuristic design. 
+                Freelance Digital Media Marketer who has scaled <strong>5+ Major Projects</strong> with high-impact campaigns.</p>
+                
+                <a href="#projects" class="cyber-btn">
+                    <span class="btn-content">VIEW CAMPAIGNS</span>
+                    <span class="btn-glitch"></span>
+                </a>
+
+                <div class="scroll-indicator">
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                    <div class="chevron"></div>
+                </div>
+            </section>
+
+            <!-- About / Skills Section -->
+            <section id="about" class="section">
+                <div class="section-header">
+                    <h2 class="cyber-heading">OPERATOR <span class="highlight">PROFILE</span></h2>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="profile-frame">
+                        <div class="img-container">
+                            <!-- Placeholder for user image -->
+                            <img src="profile.jpg" alt="Arun - Digital Strategist">
+                            <div class="scan-line"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-content">
+                        <div class="terminal-text">
+                            <p>> IDENTITY: Arun</p>
+                            <p>> ROLE: Freelance Digital Marketer</p>
+                            <p>> EXPERIENCE: 5+ Projects Deployed</p>
+                            <p>> MISSION: Elevating brands through next-gen storytelling and analytics.</p>
+                        </div>
+
+                        <div class="stats-hub">
+                            <div class="cyber-stat">
+                                <span class="stat-val" data-target="5">5+</span>
+                                <span class="stat-label">PROJECTS</span>
+                            </div>
+                            <div class="cyber-stat">
+                                <span class="stat-val" data-target="150">150%</span>
+                                <span class="stat-label">GROWTH RATE</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="section">
+                <div class="section-header">
+                    <h2 class="cyber-heading">RECENT <span class="highlight">SCENARIOS</span></h2>
+                </div>
+                
+                <div class="project-grid">
+                    <!-- Project 1 -->
+                    <div class="holo-card">
+                        <div class="card-image">
+                            <!-- Marketing related image -->
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=500&auto=format&fit=crop" alt="SEO Project">
+                        </div>
+                        <h3>NEON BRANDING</h3>
+                        <p>Complete brand overhaul for a tech startup. Increased social engagement by 200%.</p>
+                        <div class="tags">
+                            <span>BRANDING</span> <span>SOCIAL MEDIA</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="holo-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=500&auto=format&fit=crop" alt="Analytics Project">
+                        </div>
+                        <h3>DATA NEXUS</h3>
+                        <p>SEO Optimization & Lead Generation campaign for a local agency.</p>
+                        <div class="tags">
+                            <span>SEO</span> <span>ANALYTICS</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="holo-card">
+                        <div class="card-image">
+                            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?q=80&w=500&auto=format&fit=crop" alt="Content Project">
+                        </div>
+                        <h3>CYBER EVENTS</h3>
+                        <p>Viral content strategy for an international gaming event.</p>
+                        <div class="tags">
+                            <span>CONTENT</span> <span>ADS</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+               <div class="section-header">
+                   <h2 class="cyber-heading">GET IN <span class="highlight">TOUCH</span></h2>
+                   <p class="hero-desc" style="margin: 20px auto;">Have a project in mind? Let's collaborate.</p>
+               </div>
+               
+               <div class="contact-terminal simple-form">
+                   <form id="contact-form" action="https://formspree.io/f/xykkzqzq" method="POST">
+                       
+                       <div class="form-row">
+                           <div class="input-group">
+                               <label for="name">Your Name</label>
+                               <input type="text" id="name" name="name" placeholder="John Doe" required>
+                           </div>
+                           
+                           <div class="input-group">
+                               <label for="email">Your Email</label>
+                               <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                           </div>
+                       </div>
+
+                       <div class="input-group">
+                           <label for="message">Message</label>
+                           <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                       </div>
+
+                       <button type="submit" class="cyber-btn" style="width: 100%; margin-top: 20px;">SEND MESSAGE</button>
+                   </form>
+               </div>
+            </section>
+        </main>
+        
+        <footer class="hud-footer">
+            <p>SYSTEM INTEGRITY: 100% | © 2026 ARUN_CORP</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

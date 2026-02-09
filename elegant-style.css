@@ -1,0 +1,99 @@
+/* refined-elegant.css - Overrides for elegance */
+
+/* Elegant Navigation */
+.logo {
+    letter-spacing: 0.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: var(--font-heading);
+}
+
+.nav-links a {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+/* Elegant Typography */
+h1.hero-title {
+    font-weight: 300; /* Thin refined look */
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+    text-shadow: none; /* Remove neon glow */
+}
+
+h2.section-title, .cyber-heading {
+    border-bottom: 1px solid rgba(245, 245, 220, 0.2); /* Thin cream line */
+    padding-bottom: 20px;
+    padding-right: 0;
+    display: block;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: var(--text-primary);
+}
+
+.highlight {
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Elegant Button */
+.cyber-btn {
+    border: 1px solid var(--text-primary);
+    color: var(--text-primary);
+    text-shadow: none;
+    box-shadow: none;
+    border-radius: 50px; /* Rounded pill shape for elegance */
+    padding: 15px 50px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.cyber-btn:hover {
+    background: var(--text-primary);
+    color: var(--bg-color);
+    box-shadow: 0 0 20px rgba(245, 245, 220, 0.2);
+}
+
+/* Refined Cards */
+.holo-card, .project-card, .profile-card {
+    border: 1px solid rgba(255, 255, 255, 0.05); /* Very subtle border */
+    background: #151515; /* Slightly lighter matte black */
+    border-radius: 0; /* Sharp minimalistic corners or 4px for soft */
+}
+
+.holo-card:hover {
+    border-color: var(--text-primary);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
+}
+
+/* Remove "Tech/Gamer" Elements */
+.corner-bracket, .scanlines, .scan-line, .glitch::before, .glitch::after {
+    display: none !important;
+}
+
+/* Simple Background Particles */
+/* Updating JS config happens in next step, but CSS hides scanlines here */
+
+/* Contact Form Elegant */
+.contact-terminal {
+    background: transparent;
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.terminal-header { display: none; } /* Remove window controls */
+
+.input-group input, .input-group textarea {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: var(--font-body);
+}
+
+.input-group input:focus, .input-group textarea:focus {
+    border-bottom: 1px solid var(--text-primary);
+}
